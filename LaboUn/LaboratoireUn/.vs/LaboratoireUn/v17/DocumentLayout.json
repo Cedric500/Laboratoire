@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CedricHayfield\\ProgrammationObjet\\Laboratoire\\LaboUn\\LaboratoireUn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82B4DDC2-02F6-4D86-94C7-B5CC814EE0BB}|LaboratoireUn\\LaboratoireUn.vcxproj|D:\\CedricHayfield\\ProgrammationObjet\\Laboratoire\\LaboUn\\LaboratoireUn\\LaboratoireUn\\LaboratoireUn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82B4DDC2-02F6-4D86-94C7-B5CC814EE0BB}|LaboratoireUn\\LaboratoireUn.vcxproj|solutionrelative:LaboratoireUn\\LaboratoireUn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LaboratoireUn.cpp",
+              "DocumentMoniker": "D:\\CedricHayfield\\ProgrammationObjet\\Laboratoire\\LaboUn\\LaboratoireUn\\LaboratoireUn\\LaboratoireUn.cpp",
+              "RelativeDocumentMoniker": "LaboratoireUn\\LaboratoireUn.cpp",
+              "ToolTip": "D:\\CedricHayfield\\ProgrammationObjet\\Laboratoire\\LaboUn\\LaboratoireUn\\LaboratoireUn\\LaboratoireUn.cpp",
+              "RelativeToolTip": "LaboratoireUn\\LaboratoireUn.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-31T16:06:58.403Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
