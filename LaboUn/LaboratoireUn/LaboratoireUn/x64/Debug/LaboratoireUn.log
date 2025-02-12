@@ -1,2 +1,3 @@
 ﻿  LaboratoireUn.cpp
-  LaboratoireUn.vcxproj -> D:\CedricHayfield\ProgrammationObjet\Laboratoire\LaboUn\LaboratoireUn\x64\Debug\LaboratoireUn.exe
+D:\Ecole\Programmation\SessionReprise\ProgObjet\Laboratoire\LaboUn\LaboratoireUn\LaboratoireUn\LaboratoireUn.cpp(52,12): warning C4305: 'initializing': truncation from 'double' to 'float'
+  LaboratoireUn.vcxproj -> D:\Ecole\Programmation\SessionReprise\ProgObjet\Laboratoire\LaboUn\LaboratoireUn\x64\Debug\LaboratoireUn.exe
