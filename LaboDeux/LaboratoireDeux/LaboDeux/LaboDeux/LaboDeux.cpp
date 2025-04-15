@@ -70,28 +70,59 @@ void ExerciceTrois()
 
 void ExerciceQuatre()
 {
+	string word = "";
+	string reversedWord = "";
 
+	cin >> word;
+
+	for (int i = size(word) - 1; i >= 0; i--)
+	{
+		reversedWord.push_back(word[i]);
+	}
+
+	if (reversedWord == word)
+	{
+		cout << "Ce mot est un palindrome" << endl;
+	}
+	else
+	{
+		cout << "Ce mot n'est pas un palindrome" << endl;
+	}
 }
 
 void ExerciceCinq()
 {
+	string sentence = "";
+	string tempNumber = "";
+	int totalNumber = 0;
 
-}
+	getline(cin, sentence);
 
-void ExerciceSix()
-{
+	for (int i = 0; i < size(sentence); i++)
+	{
+		if (sentence[i] >= 48 && sentence[i] <= 57)
+		{
+			tempNumber.push_back(sentence[i]);
+		}
+		else if (size(tempNumber) > 0)
+		{
+			totalNumber += stoi(tempNumber);
+			tempNumber = "";
+		}
+	}
 
+	if (size(tempNumber) > 0)
+	{
+		totalNumber += stoi(tempNumber);
+	}
+	cout << totalNumber;
 }
 
 int main()
 {
-	//Termine
 	//ExerciceUn();
 	//ExerciceDeux();
-	ExerciceTrois();
-
-	//NonTermine
+	//ExerciceTrois();
 	//ExerciceQuatre();
 	//ExerciceCinq();
-	//ExerciceSix();
 }
