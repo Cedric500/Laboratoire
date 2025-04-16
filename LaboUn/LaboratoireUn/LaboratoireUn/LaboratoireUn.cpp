@@ -65,7 +65,10 @@ void Exercice2()
 
 void Exercice3()
 {
+	string name = "";
 
+	cin >> name;
+	cout << "Bonjour " << name;
 }
 
 void Exercice4()
@@ -90,10 +93,30 @@ void Exercice5()
 {
 	unsigned int num = 43;
 	unsigned int reverse = 0;
+	unsigned int tempBit = 1;
+	bool firstOne = false;
 
-	reverse = num ^ 32;
+	tempBit = tempBit << 31;
+
+	for (int i = 0; tempBit > 0; i++)
+	{
+		if (firstOne)
+		{
+			if ((tempBit & num) == 0)
+			{
+				reverse = reverse | tempBit;
+			}
+		}
+		else if ((tempBit & num) > 0)
+		{
+			firstOne = true;
+		}
+		tempBit = tempBit >> 1;
+	}
+
 
 	cout << reverse << endl;
+
 }
 
 void Exercice6()
@@ -124,22 +147,62 @@ void Exercice6()
 
 void Exercice7()
 {
-
+	cout << "    *    " << endl;
+	cout << "   * *   " << endl;
+	cout << "  *   *  " << endl;
+	cout << " *     * " << endl;
+	cout << "*       *" << endl;
+	cout << " *     * " << endl;
+	cout << "  *   *  " << endl;
+	cout << "   * *   " << endl;
+	cout << "    *    " << endl;
 }
 
 void Exercice8()
 {
-
+	cout << "    *    " << endl;
+	cout << "   ***   " << endl;
+	cout << "  *****  " << endl;
+	cout << "    *    " << endl;
+	cout << "    *    " << endl;
+	cout << "    *    " << endl;
+	cout << "    *    " << endl;
+	cout << "    *    " << endl;
 }
 
 void Exercice9()
 {
+	string numImput = "";
+	int total = 0;
 
+	cin >> numImput;
+
+	for (int i = 0; i < size(numImput); i++)
+	{
+		total += numImput[i] - '0';
+	}
+
+	cout << total;
 }
 
 void Exercice10()
 {
+	unsigned int num = 43;
+	unsigned int tempBit = 1;
 
+	tempBit = tempBit << 30;
+
+	for (int i = 0; i < 31; i++)
+	{
+		if ((num & (tempBit >> i)) > 0)
+		{
+			cout << "1";
+		}
+		else
+		{
+			cout << "0";
+		}
+	}
 }
 
 int main(int argc, char** argv)
@@ -147,11 +210,14 @@ int main(int argc, char** argv)
 	//Completer
 	//Exercice1();
 	//Exercice2();
-	//Exercice4();
-	//Exercice6();
-
-	//A faire
 	//Exercice3();
+	//Exercice4();
 	//Exercice5();
+	//Exercice6();
+	//Exercice7();
+	//Exercice8();
+	//Exercice9();
+	//Exercice10();
+
 	return 0;
 }
